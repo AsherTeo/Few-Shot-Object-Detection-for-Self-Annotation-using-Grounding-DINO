@@ -1,3 +1,8 @@
 ## 1 Introduction
 
-gfgfgfg 
+Dataset annotation is a tedious and time-consuming task, especially when labeling thousands or millions of images.
+This problem becomes more challenging for domain-specific objects, where zero-shot object detection models may fail to generalize reliably.
+
+Even when zero-shot detection achieves reasonable recall, improving recall is critical for self-annotation, as missing objects increases human correction effort. A recall-oriented few-shot approach can reduce annotation time and allow practitioners to focus more on optimizing the final detection model.
+
+In this project, we evaluate few-shot object detection using 5, 10, 25, and 50 samples per class across six datasets. We analyze detection recall under different shot settings and study the effect of freezing versus fine-tuning the backbone to determine reliable configurations for self-annotation.
