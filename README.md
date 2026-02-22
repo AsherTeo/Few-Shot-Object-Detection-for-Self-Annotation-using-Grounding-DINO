@@ -1,4 +1,4 @@
-1) Introduction
+## 1) Introduction
 
 Dataset annotation is a costly and time-consuming process, particularly when labeling thousands or millions of images.
 This challenge becomes more severe for domain-specific objects, where zero-shot object detection models often struggle to generalize reliably.
