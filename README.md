@@ -16,15 +16,20 @@ Source: https://www.kaggle.com/datasets/pengbo00/home-fire-dataset
 
 This dataset contains approximately 3.9k training images of indoor fire and smoke scenes. The goal is to detect small fire regions in indoor environments, where early detection is critical. 
 
-### Aquarium
+### 2) Aquarium
+
+Classes : Jellyfish, Pengiun, Shark, Starfish, Stingary
+
+Source : https://public.roboflow.com/object-detection/aquarium/2
+
+This dataset contains approximately 450 training images of different aquatic species captured in aquarium environments. The objective is to detect and distinguish multiple species for applications such as educational displays, interactive exhibits for tourists, and automatic species counting.
+
+### 3) Floor Plans
 
 
-### Floor Plans
+
+### 1) Entrance
 
 
 
-### Entrance
-
-
-
-### Vertebra
+### 1) Vertebra
