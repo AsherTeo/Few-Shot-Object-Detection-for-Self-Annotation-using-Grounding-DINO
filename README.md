@@ -8,7 +8,7 @@ By introducing a small amount of labeled data, few-shot learning can improve det
 
 ## 2. Dataset
 
-### 1. Indoor Fire
+### Indoor Fire
 
 Classes: Fire, Smoke
 
@@ -16,16 +16,15 @@ Source: https://www.kaggle.com/datasets/pengbo00/home-fire-dataset
 
 This dataset contains approximately 3.9k training images of indoor fire and smoke scenes. The goal is to detect small fire regions in indoor environments, where early detection is critical. 
 
-2. Aquarium
+### Aquarium
+
+
+### Floor Plans
 
 
 
-3. Floor Plans
+### Entrance
 
 
 
-4. Entrance
-
-
-
-5. Vertebra
+### Vertebra
