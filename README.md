@@ -26,7 +26,7 @@ Classes : Door symbol, Window symbol, Zone  Training Images : 769
 
 Goal: Detect architectural symbols for automatic CAD conversion (e.g., AutoCAD) and object counting.
 
-### 4) [Entrance Source](https://www.kaggle.com/datasets/evanrantala/entrances-dataset-street-level-object-detection)
+### 4) [Entrance](https://www.kaggle.com/datasets/evanrantala/entrances-dataset-street-level-object-detection)
 
 Classes : Entrance Training Images : 800
 
