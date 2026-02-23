@@ -48,7 +48,21 @@ Source : https://www.kaggle.com/datasets/salmankey/scoliosis-yolov5-annotated-sp
 
 This dataset contains about 1,500 spine X-ray images. The goal is to detect individual vertebrae to help measure the Cobb angle and assess scoliosis severity. Accurate vertebra detection is essential for analyzing spinal curvature.
 
+## 3. Method
 
+We use Grounding DINO as the base detector for few-shot self-annotation due to its open-vocabulary detection capability. The goal is to improve detection recall with a small amount of labeled data while keeping human correction effort low.
+
+### Few-Shot Setup
+For each dataset, we sample 5, 10, 25, and 50 labeled images per class as few-shot training data. These samples are used to fine-tune the model and adapt it to domain-specific objects.
+
+### Backbone Adaptation
+We study two training strategies: freezing the backbone and fine-tuning the backbone. This comparison allows us to analyze whether adapting feature representations improves recall in low-data settings.
+
+### Human-in-the-Loop
+The trained model is applied to unlabeled images to generate pre-annotations. A human annotator then reviews the predictions to remove false positives and correct missed detections. Although few-shot learning improves recall, human verification is still required to ensure annotation quality.
+
+### Evaluation
+Recall is used as the primary evaluation metric, as missing objects directly increase manual correction effort in self-annotation scenarios. We report recall under different shot settings to analyze reliability across datasets.
 
 
 
