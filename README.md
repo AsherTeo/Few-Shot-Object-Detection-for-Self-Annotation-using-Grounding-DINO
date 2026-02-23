@@ -8,7 +8,7 @@ By introducing a small amount of labeled data, few-shot learning can improve det
 
 ## 2. Dataset
 
-### Indoor Fire
+### 1) Indoor Fire
 
 Classes: Fire, Smoke
 
