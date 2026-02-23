@@ -42,8 +42,11 @@ This dataset contains approximately 800 training images of street-level scenes c
 
 ### 5) Vertebra
 
+Classes : Vertebra
 
+Source : https://www.kaggle.com/datasets/salmankey/scoliosis-yolov5-annotated-spine-x-ray-dataset
 
+This dataset contains about 1,500 spine X-ray images. The goal is to detect individual vertebrae to help measure the Cobb angle and assess scoliosis severity. Accurate vertebra detection is essential for analyzing spinal curvature.
 
 
 
