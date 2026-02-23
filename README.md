@@ -1,6 +1,6 @@
 ## 1. Introduction
 
-In traditional computer vision workflows, dataset annotation is often the most time-consuming and labor-intensive step. Anyone who has manually drawn bounding boxes knows how tedious it becomes when working with thousands or even millions of images. This challenge is even greater for domain-specific objects, where pre-trained or zero-shot detection models may not generalize well.
+In traditional computer vision workflows, dataset annotation is often the most time-consuming and labor-intensive step. Anyone who has manually drawn bounding boxes knows how tedious it becomes when working with thousands or even millions of images. This challenge is even greater for domain-specific objects, where zero-shot detection models may not generalize well.
 
 Even though modern vision models are trained on millions of images and have seen a wide variety of objects, and many works have demonstrated zero-shot detection as a way to ease daily annotation work, in practice the recall is often too low for reliable self-annotation. Missed objects and excessive false positives still require substantial human effort to correct, which limits the usefulness of purely zero-shot approaches.
 
