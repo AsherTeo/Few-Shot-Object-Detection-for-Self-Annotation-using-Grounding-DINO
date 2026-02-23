@@ -14,7 +14,7 @@ Classes: Fire, Smoke  Training Images : ~3.9k
 
 Goal: Detect small fire regions in indoor environments for early fire detection.
 
-### 2) Aquarium https://public.roboflow.com/object-detection/aquarium/2
+### 2) [Aquarium](https://public.roboflow.com/object-detection/aquarium/2)
 
 Classes : Jellyfish, Pengiun, Shark, Starfish, Stingary  Training Images : ~450
 
