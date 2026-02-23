@@ -20,19 +20,19 @@ Classes : Jellyfish, Pengiun, Shark, Starfish, Stingary  Training Images : ~450
 
 Goal: Detect and distinguish aquatic species for educational and automatic counting applications.
 
-### 3) Floor Plans Source : https://www.kaggle.com/datasets/umairinayat/floor-plans-500-annotated-object-detection?select=data.yaml
+### 3) [Floor Plans](https://www.kaggle.com/datasets/umairinayat/floor-plans-500-annotated-object-detection?select=data.yaml)
 
 Classes : Door symbol, Window symbol, Zone  Training Images : 769
 
 Goal: Detect architectural symbols for automatic CAD conversion (e.g., AutoCAD) and object counting.
 
-### 4) Entrance Source : https://www.kaggle.com/datasets/evanrantala/entrances-dataset-street-level-object-detection
+### 4) [Entrance Source](https://www.kaggle.com/datasets/evanrantala/entrances-dataset-street-level-object-detection)
 
 Classes : Entrance Training Images : 800
 
 Goal: Detect building entrances in street scenes for navigation and delivery applications.
 
-### 5) Vertebra Source : https://www.kaggle.com/datasets/salmankey/scoliosis-yolov5-annotated-spine-x-ray-dataset
+### 5) [Vertebra](https://www.kaggle.com/datasets/salmankey/scoliosis-yolov5-annotated-spine-x-ray-dataset)
 
 Classes : Vertebra Training Images : ~1,500
 
