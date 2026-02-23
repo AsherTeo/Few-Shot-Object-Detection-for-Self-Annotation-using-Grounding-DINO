@@ -34,6 +34,25 @@ This dataset contains approximately 769 training images of architectural floor p
 
 ### 4) Entrance
 
+Classes : Entrance
+
+Source : https://www.kaggle.com/datasets/evanrantala/entrances-dataset-street-level-object-detection
+
+This dataset contains approximately 800 training images of street-level scenes collected in San Francisco, California. The objective is to detect building entrances in urban environments for applications such as autonomous driving and navigation, where an electric vehicle (EV) or delivery robot needs to identify suitable stopping or drop-off points near entrances.
+
+### 5) Vertebra
 
 
-### 1) Vertebra
+
+
+
+
+
+
+
+
+
+
+
+
+
