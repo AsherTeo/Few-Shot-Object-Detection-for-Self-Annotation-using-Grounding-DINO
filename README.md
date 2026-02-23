@@ -10,9 +10,7 @@ By introducing a small amount of labeled data, few-shot learning can improve det
 
 ### 1) Indoor Fire
 
-Classes: Fire, Smoke
-
-~3.9k training images
+Classes: Fire, Smoke  Training Images : ~3.9k 
 
 Goal: Detect small fire regions in indoor environments for early fire detection.
 
