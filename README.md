@@ -14,37 +14,29 @@ Classes: Fire, Smoke  Training Images : ~3.9k
 
 Goal: Detect small fire regions in indoor environments for early fire detection.
 
-### 2) Aquarium
+### 2) Aquarium https://public.roboflow.com/object-detection/aquarium/2
 
-Classes : Jellyfish, Pengiun, Shark, Starfish, Stingary
+Classes : Jellyfish, Pengiun, Shark, Starfish, Stingary  Training Images : ~450
 
-Source : https://public.roboflow.com/object-detection/aquarium/2
+Goal: Detect and distinguish aquatic species for educational and automatic counting applications.
 
-This dataset contains approximately 450 training images of different aquatic species captured in aquarium environments. The objective is to detect and distinguish multiple species for applications such as educational displays, interactive exhibits for tourists, and automatic species counting.
+### 3) Floor Plans Source : https://www.kaggle.com/datasets/umairinayat/floor-plans-500-annotated-object-detection?select=data.yaml
 
-### 3) Floor Plans
+Classes : Door symbol, Window symbol, Zone  Training Images : 769
 
-Classes : Door symbol, Window symbol, Zone
+Goal: Detect architectural symbols for automatic CAD conversion (e.g., AutoCAD) and object counting.
 
-Source : https://www.kaggle.com/datasets/umairinayat/floor-plans-500-annotated-object-detection?select=data.yaml
+### 4) Entrance Source : https://www.kaggle.com/datasets/evanrantala/entrances-dataset-street-level-object-detection
 
-This dataset contains approximately 769 training images of architectural floor plans. The objective is to detect key structural elements such as doors, windows, and zones for applications for automatic conversion to CAD formats (AutoCAD) and object counting. 
+Classes : Entrance Training Images : 800
 
-### 4) Entrance
+Goal: Detect building entrances in street scenes for navigation and delivery applications.
 
-Classes : Entrance
+### 5) Vertebra Source : https://www.kaggle.com/datasets/salmankey/scoliosis-yolov5-annotated-spine-x-ray-dataset
 
-Source : https://www.kaggle.com/datasets/evanrantala/entrances-dataset-street-level-object-detection
+Classes : Vertebra Training Images : ~1,500
 
-This dataset contains approximately 800 training images of street-level scenes collected in San Francisco, California. The objective is to detect building entrances in urban environments for applications such as autonomous driving and navigation, where an electric vehicle (EV) or delivery robot needs to identify suitable stopping or drop-off points near entrances.
-
-### 5) Vertebra
-
-Classes : Vertebra
-
-Source : https://www.kaggle.com/datasets/salmankey/scoliosis-yolov5-annotated-spine-x-ray-dataset
-
-This dataset contains about 1,500 spine X-ray images. The goal is to detect individual vertebrae to help measure the Cobb angle and assess scoliosis severity. Accurate vertebra detection is essential for analyzing spinal curvature.
+Goal: Detect individual vertebrae to support Cobb angle estimation and scoliosis assessment.
 
 ## 3. Method
 
