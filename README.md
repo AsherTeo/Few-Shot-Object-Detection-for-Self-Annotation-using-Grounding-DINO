@@ -11,6 +11,7 @@ By introducing a small amount of labeled data, few-shot learning can improve det
 1. Indoor Fire
 
 Classes: Fire, Smoke
+
 Source: https://www.kaggle.com/datasets/pengbo00/home-fire-dataset
 
 This dataset contains approximately 3.9k training images of indoor fire and smoke scenes. The goal is to detect small fire regions in indoor environments, where early detection is critical. The visual appearance of fire and smoke varies significantly in shape, size, and lighting conditions, making the task challenging for pre-trained models. This dataset represents a domain-specific detection scenario where zero-shot performance is often limited, motivating the use of few-shot learning for self-annotation.
