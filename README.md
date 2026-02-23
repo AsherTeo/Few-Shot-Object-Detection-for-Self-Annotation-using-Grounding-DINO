@@ -26,9 +26,13 @@ This dataset contains approximately 450 training images of different aquatic spe
 
 ### 3) Floor Plans
 
+Classes : Door symbol, Window symbol, Zone
 
+Source : https://www.kaggle.com/datasets/umairinayat/floor-plans-500-annotated-object-detection?select=data.yaml
 
-### 1) Entrance
+This dataset contains approximately 769 training images of architectural floor plans. The objective is to detect key structural elements such as doors, windows, and zones for applications for automatic conversion to CAD formats (AutoCAD) and object counting. 
+
+### 4) Entrance
 
 
 
