@@ -60,26 +60,20 @@ Recall is used as the primary evaluation metric, as missing objects directly inc
 
 Validation
 
-| Few Shot | Freeze Recall | No-Freeze Recall |
-|------|---------------|------------------|
-| 0    | 0.412         | 0.412          |
-| 5    | 0.471         | 0.579            |
-| 10   | 0.575         | 0.705          |
-| 25   | 0.713         | 0.817           |
-| 50   | 0.830         | 0.805            |
+### Results (Freeze Backbone)
+
+| Few-Shot | Epochs | LR   | Freeze Backbone | Precision | Recall | mAP@0.5 | mAP@0.5:0.95 |
+|----------|--------|------|------------------|-----------|--------|---------|--------------|
+| 0        | –      | –    | Yes              | 0.217     | 0.346  | 0.217   | 0.123        |
+| 5        | 5      | 1e-5 | Yes              | 0.489     | 0.604  | 0.489   | 0.322        |
+| 10       | 8      | 1e-5 | Yes              | 0.557     | 0.643  | 0.557   | 0.350        |
+| 25       | 12     | 3e-5 | Yes              | 0.744     | 0.809  | 0.744   | 0.527        |
+| 50       | 15     | 5e-5 | Yes              | 0.856     | 0.879  | 0.770   | 0.536        |
 
 
 ### Aquarium (Freeze backbone vs No-Freeze backbone)
 
-Validation
 
-| Few Shot | Freeze Recall | No-Freeze Recall |
-|------|---------------|------------------|
-| 0    | 0.412         | 0.412          |
-| 5    | 0.471         | 0.579            |
-| 10   | 0.575         | 0.705          |
-| 25   | 0.713         | 0.817           |
-| 50   | 0.830         | 0.805            |
 
 
 
