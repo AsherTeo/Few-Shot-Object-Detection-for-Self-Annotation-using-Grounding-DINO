@@ -107,3 +107,21 @@ Recall is used as the primary evaluation metric, as missing objects directly inc
 | 25       | 12     | 3e-5 | 0.915           | 0.904             |
 | 50       | 15     | 5e-5 | 0.934           | **0.946**         |
 
+## 5. Conclusion
+
+Based on our experiments across five datasets:
+
+- **Datasets with some zero-shot knowledge (Recall > 0.3):**  
+  Few-shot training with **50 images per class and freezing the backbone** generally gives the best recall.
+
+- **Datasets with almost no zero-shot knowledge (Recall ≈ 0):**  
+  Few-shot training with **50 images per class and fine-tuning (unfreezing) the backbone** performs better.
+
+- **Small few-shot sizes (5 images per class):**  
+  Provide limited improvement and are generally insufficient to boost recall significantly.
+
+- **Optimal few-shot size varies:**  
+  In many cases, **25 images per class** is a good balance, but the best performance depends on dataset size and domain-specific complexity.
+
+**Overall:**  
+Few-shot learning can effectively improve self-annotation recall, reducing manual correction effort. Backbone freezing or fine-tuning should be chosen based on prior knowledge available in zero-shot performance.
