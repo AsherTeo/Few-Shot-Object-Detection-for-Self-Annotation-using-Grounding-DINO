@@ -83,8 +83,8 @@ Recall is used as the primary evaluation metric, as missing objects directly inc
 | 0        | –      | –    | 0.034           | 0.034             |
 | 5        | 8      | 1e-5 | 0.115           | 0.178             |
 | 10       | 8      | 1e-5 | 0.708           | 0.756             |
-| 25       | 12     | 3e-5 | 0.861           | 0.869             |
-| 50       | 15     | 5e-5 | 0.862           | **0.859**         |
+| 25       | 12     | 3e-5 | 0.861           | **0.869**             |
+| 50       | 15     | 5e-5 | 0.862           | 0.859        |
 
 ### Entrance
 
