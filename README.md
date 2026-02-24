@@ -58,9 +58,7 @@ Recall is used as the primary evaluation metric, as missing objects directly inc
 
 ### Fire & Smoke (Freeze backbone vs No-Freeze backbone)
 
-Validation
-
-### Results (Freeze Backbone)
+### Validation (Freeze Backbone)
 
 | Few-Shot | Epochs | LR   | Precision | Recall | mAP@0.5 | mAP@0.5:0.95 |
 |----------|--------|------|-----------|--------|---------|--------------|
@@ -70,7 +68,7 @@ Validation
 | 25       | 12     | 3e-5 | 0.744     | 0.809  | 0.744   | 0.527        |
 | 50       | 15     | 5e-5 | 0.856     | 0.879  | 0.770   | 0.536        |
 
-### Results (No Backbone Freezing)
+### Validation (No Backbone Freezing)
 
 | Few-Shot | Epochs | LR   | Precision | Recall | mAP@0.5 | mAP@0.5:0.95 |
 |----------|--------|------|-----------|--------|---------|--------------|
