@@ -24,7 +24,7 @@ Goal: Detect and distinguish aquatic species for educational and automatic count
 
 Classes : Door symbol, Window symbol, Zone  
 
-Goal: Detect architectural symbols for automatic CAD conversion (e.g., AutoCAD) and object counting.
+Goal: Detect architectural symbols for automatic CAD conversion (AutoCAD) and object counting.
 
 ### 4) [Entrance](https://www.kaggle.com/datasets/evanrantala/entrances-dataset-street-level-object-detection)
 
