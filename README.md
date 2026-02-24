@@ -54,9 +54,32 @@ The trained model is applied to unlabeled images to generate pre-annotations. A 
 ### Evaluation
 Recall is used as the primary evaluation metric, as missing objects directly increase manual correction effort in self-annotation scenarios. We report recall under different shot settings to analyze reliability across datasets.
 
+## 4. Result
+
+### Fire & Smoke (Freeze backbone vs No-Freeze backbone)
+
+Validation
+
+| Few Shot | Freeze Recall | No-Freeze Recall |
+|------|---------------|------------------|
+| 0    | 0.412         | 0.412          |
+| 5    | 0.471         | 0.579            |
+| 10   | 0.575         | 0.705          |
+| 25   | 0.713         | 0.817           |
+| 50   | 0.830         | 0.805            |
 
 
+### Aquarium (Freeze backbone vs No-Freeze backbone)
 
+Validation
+
+| Few Shot | Freeze Recall | No-Freeze Recall |
+|------|---------------|------------------|
+| 0    | 0.412         | 0.412          |
+| 5    | 0.471         | 0.579            |
+| 10   | 0.575         | 0.705          |
+| 25   | 0.713         | 0.817           |
+| 50   | 0.830         | 0.805            |
 
 
 
