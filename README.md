@@ -107,21 +107,24 @@ Recall is used as the primary evaluation metric, as missing objects directly inc
 | 25       | 12     | 3e-5 | 0.915           | 0.904             |
 | 50       | 15     | 5e-5 | 0.934           | **0.946**         |
 
+## Insight
+
+From experiments on five datasets, we observe clear trends between shot size and backbone strategy.
+
+For 5-shot and 10-shot, unfreezing the backbone usually gives better recall, since the model needs to adapt its features to new domains with very limited data.
+
+For 25-shot, unfreezing the backbone is still often better, as moderate data allows useful domain adaptation.
+
+For 50-shot, the best strategy depends on zero-shot performance:
+  If zero-shot recall ≥ 0.3, freezing the backbone works better because the pretrained features are already useful and freezing improves stability.
+  If zero-shot recall is very low, unfreezing the backbone is needed to learn domain-specific features.
+  
 ## 5. Conclusion
 
-Based on our experiments across five datasets:
+Datasets with some zero-shot knowledge benefit most from 50-shot training with a frozen backbone.
 
-- **Datasets with some zero-shot knowledge (Recall > 0.3):**  
-  Few-shot training with **50 images per class and freezing the backbone** generally gives the best recall.
+Datasets with little or no zero-shot knowledge benefit most from 50-shot training with an unfrozen backbone.
 
-- **Datasets with almost no zero-shot knowledge (Recall ≈ 0):**  
-  Few-shot training with **50 images per class and fine-tuning (unfreezing) the backbone** performs better.
+Very small few-shot sizes (e.g., 5 shots) give limited improvement and are not sufficient for reliable self-annotation.
 
-- **Small few-shot sizes (5 images per class):**  
-  Provide limited improvement and are generally insufficient to boost recall significantly.
-
-- **Optimal few-shot size varies:**  
-  In many cases, **25 images per class** is a good balance, but the best performance depends on dataset size and domain-specific complexity.
-
-**Overall:**  
-Few-shot learning can effectively improve self-annotation recall, reducing manual correction effort. Backbone freezing or fine-tuning should be chosen based on prior knowledge available in zero-shot performance.
+Although 25 shots per class is often a good balance between effort and performance, the best few-shot size still depends on the dataset and task.
