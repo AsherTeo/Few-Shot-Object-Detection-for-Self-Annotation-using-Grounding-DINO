@@ -116,15 +116,15 @@ For 5-shot and 10-shot, unfreezing the backbone usually gives better recall, sin
 For 25-shot, unfreezing the backbone is still often better, as moderate data allows useful domain adaptation.
 
 For 50-shot, the best strategy depends on zero-shot performance:
-  If zero-shot recall ≥ 0.3, freezing the backbone works better because the pretrained features are already useful and freezing improves stability.
-  If zero-shot recall is very low, unfreezing the backbone is needed to learn domain-specific features.
+- If zero-shot recall ≥ 0.3, freezing the backbone works better because the pretrained features are already useful and freezing improves stability.
+- If zero-shot recall is very low, unfreezing the backbone is needed to learn domain-specific features.
   
 ## 5. Conclusion
 
-Datasets with some zero-shot knowledge benefit most from 50-shot training with a frozen backbone.
+- Datasets with some zero-shot knowledge benefit most from 50-shot training with a frozen backbone.
 
-Datasets with little or no zero-shot knowledge benefit most from 50-shot training with an unfrozen backbone.
+- Datasets with little or no zero-shot knowledge benefit most from 50-shot training with an unfrozen backbone.
 
-Very small few-shot sizes (e.g., 5 shots) give limited improvement and are not sufficient for reliable self-annotation.
+- Very small few-shot sizes (5 shots) give limited improvement and are not sufficient for reliable self-annotation.
 
-Although 25 shots per class is often a good balance between effort and performance, the best few-shot size still depends on the dataset and task.
+- Although 25 shots per class is often a good balance between effort and performance, the best few-shot size still depends on the dataset and task.
