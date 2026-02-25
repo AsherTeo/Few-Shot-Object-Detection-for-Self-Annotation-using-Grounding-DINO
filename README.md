@@ -109,6 +109,10 @@ Recall is used as the primary evaluation metric, as missing objects directly inc
 
 ### Vertebra
 
+| Zero-shot | 5-shot (No-Freeze) | 25-shot (No-Freeze) |
+|-----------|--------------------|---------------------------|
+|![01-July-2019-1_jpg rf a39bf99b90e14970b497076c97236a1a](https://github.com/user-attachments/assets/f2fcd5f5-5ae3-4e99-8148-ecb3503a1aba)|![01-July-2019-1_jpg rf a39bf99b90e14970b497076c97236a1a](https://github.com/user-attachments/assets/3604691d-8c7b-4d1a-b175-2ce295cec89a)|![Uploading 01-July-2019-1_jpg.rf.a39bf99b90e14970b497076c97236a1a.jpg…]()|
+
 | Few-Shot | Epochs | LR   | Recall (Freeze) | Recall (No-Freeze) |
 |----------|--------|------|----------------|-------------------|
 | 0        | –      | –    | 0.000           | 0.000             |
