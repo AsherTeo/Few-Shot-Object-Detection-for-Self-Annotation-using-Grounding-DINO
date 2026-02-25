@@ -107,7 +107,7 @@ Recall is used as the primary evaluation metric, as missing objects directly inc
 | 25       | 12     | 3e-5 | 0.915           | 0.904             |
 | 50       | 15     | 5e-5 | 0.934           | **0.946**         |
 
-## Insight
+## 5. Insight
 
 From experiments on five datasets, we observe clear trends between shot size and backbone strategy.
 
@@ -119,7 +119,7 @@ For 50-shot, the best strategy depends on zero-shot performance:
 - If zero-shot recall ≥ 0.3, freezing the backbone works better because the pretrained features are already useful and freezing improves stability.
 - If zero-shot recall is very low, unfreezing the backbone is needed to learn domain-specific features.
   
-## 5. Conclusion
+## 6. Conclusion
 
 - Datasets with some zero-shot knowledge benefit most from 50-shot training with a frozen backbone.
 
@@ -128,3 +128,5 @@ For 50-shot, the best strategy depends on zero-shot performance:
 - Very small few-shot sizes (5 shots) give limited improvement and are not sufficient for reliable self-annotation.
 
 - Although 25 shots per class is often a good balance between effort and performance, the best few-shot size still depends on the dataset and task.
+
+**Overall, 25-shot training is often the best practical choice, as it provides a good balance between annotation effort, dataset size, and recall improvement.**
