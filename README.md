@@ -78,9 +78,10 @@ Recall is used as the primary evaluation metric, as missing objects directly inc
 
 ### Floor Plans
 
-| Zero-shot | 25-shot Recall (No-Freeze) |
-|-----------|---------|
-| ![](https://github.com/user-attachments/assets/df079dad-0534-498e-980f-e977c927e03f) | ![](https://github.com/user-attachments/assets/216f2924-2a2b-41f6-95c2-c2fcfa94d42d) |
+| Zero-shot | 5-shot | 25-shot |
+|-----------|--------|---------------------------|
+
+(https://github.com/user-attachments/assets/df079dad-0534-498e-980f-e977c927e03f) | ![]![900_png rf 93e36d02f1e5b57dcdf310019d9cf033_5](https://github.com/user-attachments/assets/bf6936c4-c88b-4eab-b6c0-2c22f73df6b8) | ![](https://github.com/user-attachments/assets/216f2924-2a2b-41f6-95c2-c2fcfa94d42d) |
 
 | Few-Shot | Epochs | LR   | Recall (Freeze) | Recall (No-Freeze) |
 |----------|--------|------|----------------|-------------------|
