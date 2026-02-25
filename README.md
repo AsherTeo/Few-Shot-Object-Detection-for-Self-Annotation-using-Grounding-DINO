@@ -1,4 +1,4 @@
-## 1. Introduction
+![test_1275](https://github.com/user-attachments/assets/d769def6-ab71-4262-a2ac-215cfef9406f)![test_1275](https://github.com/user-attachments/assets/d769def6-ab71-4262-a2ac-215cfef9406f)## 1. Introduction
 
 In traditional computer vision workflows, dataset annotation is often the most time-consuming step. Manually drawing bounding boxes for thousands of images quickly becomes a bottleneck, especially for domain-specific objects where zero shot may not generalize well.
 
@@ -60,7 +60,8 @@ Recall is used as the primary evaluation metric, as missing objects directly inc
 
 | Zero-shot | 5-shot (No-Freeze) | 25-shot (No-Freeze) |
 |-----------|--------------------|---------------------------|
-|![test_1021](https://github.com/user-attachments/assets/404ba01a-5720-4bea-8ab6-d958fd9d75c7)|![test_1021](https://github.com/user-attachments/assets/779a9373-1fc9-44e4-aa7b-da7745982b0c)|![test_1021](https://github.com/user-attachments/assets/51272098-8a84-4c73-8279-f9d8761a583e)|
+|![test_1275](https://github.com/user-attachments/assets/a21feca4-6e69-4e75-91bc-7fc2a081832f)|![test_1275](https://github.com/user-attachments/assets/05fb0a90-db22-4948-abc1-80aca6417d46)|![test_1275](https://github.com/user-attachments/assets/ae5b66d7-5ae9-4c2b-8dac-d66a44771a16)|
+
 
 | Few-Shot | Epochs | LR   | Recall (Freeze) | Recall (No-Freeze) |
 |----------|--------|------|----------------|-------------------|
