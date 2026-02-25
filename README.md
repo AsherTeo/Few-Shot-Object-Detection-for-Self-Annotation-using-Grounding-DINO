@@ -60,8 +60,7 @@ Recall is used as the primary evaluation metric, as missing objects directly inc
 
 | Zero-shot | 5-shot (No-Freeze) | 25-shot (No-Freeze) |
 |-----------|--------------------|---------------------------|
-|![test_1021](https://github.com/user-attachments/assets/404ba01a-5720-4bea-8ab6-d958fd9d75c7)|![test_1021](https://github.com/user-attachments/assets/779a9373-1fc9-44e4-aa7b-da7745982b0c)
-|![test_1021](https://github.com/user-attachments/assets/51272098-8a84-4c73-8279-f9d8761a583e)|
+|![test_1021](https://github.com/user-attachments/assets/404ba01a-5720-4bea-8ab6-d958fd9d75c7)|![test_1021](https://github.com/user-attachments/assets/779a9373-1fc9-44e4-aa7b-da7745982b0c)|![test_1021](https://github.com/user-attachments/assets/51272098-8a84-4c73-8279-f9d8761a583e)|
 
 | Few-Shot | Epochs | LR   | Recall (Freeze) | Recall (No-Freeze) |
 |----------|--------|------|----------------|-------------------|
