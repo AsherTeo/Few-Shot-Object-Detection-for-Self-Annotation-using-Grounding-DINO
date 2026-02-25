@@ -58,6 +58,11 @@ Recall is used as the primary evaluation metric, as missing objects directly inc
 
 ### Indoor Fire (Freeze backbone vs No-Freeze backbone)
 
+| Zero-shot | 5-shot (No-Freeze) | 25-shot (No-Freeze) |
+|-----------|--------------------|---------------------------|
+|![test_1021](https://github.com/user-attachments/assets/404ba01a-5720-4bea-8ab6-d958fd9d75c7)|![test_1021](https://github.com/user-attachments/assets/779a9373-1fc9-44e4-aa7b-da7745982b0c)
+|![test_1021](https://github.com/user-attachments/assets/51272098-8a84-4c73-8279-f9d8761a583e)|
+
 | Few-Shot | Epochs | LR   | Recall (Freeze) | Recall (No-Freeze) |
 |----------|--------|------|----------------|-------------------|
 | 0        | –      | –    | 0.412           | 0.412             |
@@ -70,8 +75,7 @@ Recall is used as the primary evaluation metric, as missing objects directly inc
 
 | Zero-shot | 5-shot (No-Freeze) | 25-shot (No-Freeze) |
 |-----------|--------------------|---------------------------|
-|![IMG_2582_jpeg_jpg rf 14f175066ce74b470bf31fa0c7a096cd](https://github.com/user-attachments/assets/f10f877c-bdff-4edc-8542-ac77bab0505d)|![IMG_2582_jpeg_jpg rf 14f175066ce74b470bf31fa0c7a096cd](https://github.com/user-attachments/assets/a6983bda-71f7-4901-ab85-6311040bb45a)|![IMG_2582_jpeg_jpg rf 14f175066ce74b470bf31fa0c7a096cd](https://github.com/user-attachments/assets/d9cae5c2-2bf4-469e-b792-f7e5e5ad3437)
- |
+|![IMG_2582_jpeg_jpg rf 14f175066ce74b470bf31fa0c7a096cd](https://github.com/user-attachments/assets/f10f877c-bdff-4edc-8542-ac77bab0505d)|![IMG_2582_jpeg_jpg rf 14f175066ce74b470bf31fa0c7a096cd](https://github.com/user-attachments/assets/a6983bda-71f7-4901-ab85-6311040bb45a)|![IMG_2582_jpeg_jpg rf 14f175066ce74b470bf31fa0c7a096cd](https://github.com/user-attachments/assets/d9cae5c2-2bf4-469e-b792-f7e5e5ad3437)|
 
 | Few-Shot | Epochs | LR   | Recall (Freeze) | Recall (No-Freeze) |
 |----------|--------|------|----------------|-------------------|
