@@ -68,6 +68,11 @@ Recall is used as the primary evaluation metric, as missing objects directly inc
 
 ### Aquarium
 
+| Zero-shot | 5-shot (No-Freeze) | 25-shot (No-Freeze) |
+|-----------|--------------------|---------------------------|
+|![IMG_2582_jpeg_jpg rf 14f175066ce74b470bf31fa0c7a096cd](https://github.com/user-attachments/assets/f10f877c-bdff-4edc-8542-ac77bab0505d)|![IMG_2582_jpeg_jpg rf 14f175066ce74b470bf31fa0c7a096cd](https://github.com/user-attachments/assets/a6983bda-71f7-4901-ab85-6311040bb45a)|![IMG_2582_jpeg_jpg rf 14f175066ce74b470bf31fa0c7a096cd](https://github.com/user-attachments/assets/d9cae5c2-2bf4-469e-b792-f7e5e5ad3437)
+ |
+
 | Few-Shot | Epochs | LR   | Recall (Freeze) | Recall (No-Freeze) |
 |----------|--------|------|----------------|-------------------|
 | 0        | –      | –    | 0.346           | 0.346             |
