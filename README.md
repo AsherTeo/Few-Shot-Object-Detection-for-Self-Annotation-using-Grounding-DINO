@@ -78,7 +78,7 @@ Recall is used as the primary evaluation metric, as missing objects directly inc
 
 ### Floor Plans
 
-| Zero-shot | 25-shot |
+| Zero-shot | 25-shot Recall (No-Freeze) |
 |-----------|---------|
 | ![](https://github.com/user-attachments/assets/df079dad-0534-498e-980f-e977c927e03f) | ![](https://github.com/user-attachments/assets/216f2924-2a2b-41f6-95c2-c2fcfa94d42d) |
 
