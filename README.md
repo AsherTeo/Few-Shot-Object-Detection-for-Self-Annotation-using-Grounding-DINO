@@ -78,7 +78,7 @@ Recall is used as the primary evaluation metric, as missing objects directly inc
 
 ### Floor Plans
 
-| Zero-shot | 5-shot (No-Freeze) | 25-shot (No-Freeze, best) |
+| Zero-shot | 5-shot (No-Freeze) | 25-shot (No-Freeze) |
 |-----------|--------------------|---------------------------|
 | ![](https://github.com/user-attachments/assets/df079dad-0534-498e-980f-e977c927e03f) | ![](https://github.com/user-attachments/assets/bf6936c4-c88b-4eab-b6c0-2c22f73df6b8) | ![](https://github.com/user-attachments/assets/216f2924-2a2b-41f6-95c2-c2fcfa94d42d) |
 
@@ -93,6 +93,12 @@ Recall is used as the primary evaluation metric, as missing objects directly inc
 
 
 ### Entrance
+
+| Zero-shot | 5-shot (No-Freeze) | 25-shot (No-Freeze) |
+|-----------|--------------------|---------------------------|
+|![santacruz_376_1310810873136781](https://github.com/user-attachments/assets/c9367a9e-db1c-4056-8076-86e7192ea2bc)|![santacruz_376_1310810873136781](https://github.com/user-attachments/assets/e983e0d8-cbfd-408a-80d4-0e107c346e1d)
+ | ![santacruz_376_1310810873136781](https://github.com/user-attachments/assets/5ed8e828-972b-40a1-8832-6a489627e1d6)|
+ 
 
 | Few-Shot | Epochs | LR   | Recall (Freeze) | Recall (No-Freeze) |
 |----------|--------|------|----------------|-------------------|
