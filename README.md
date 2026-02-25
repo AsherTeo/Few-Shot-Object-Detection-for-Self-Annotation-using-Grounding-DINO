@@ -59,8 +59,8 @@ Recall is used as the primary evaluation metric, as missing objects directly inc
 ### Indoor Fire (Freeze backbone vs No-Freeze backbone)
 
 | Zero-shot | 5-shot (No-Freeze) | 25-shot (No-Freeze) |
-|-----------|--------------------|---------------------------|
-|![test_1275](https://github.com/user-attachments/assets/a21feca4-6e69-4e75-91bc-7fc2a081832f)|![test_1275](https://github.com/user-attachments/assets/05fb0a90-db22-4948-abc1-80aca6417d46)|![test_1275](https://github.com/user-attachments/assets/ae5b66d7-5ae9-4c2b-8dac-d66a44771a16)|
+|-----------|--------------------|--------------------|
+| ![](https://github.com/user-attachments/assets/a21feca4-6e69-4e75-91bc-7fc2a081832f) | ![](https://github.com/user-attachments/assets/05fb0a90-db22-4948-abc1-80aca6417d46) | ![](https://github.com/user-attachments/assets/ae5b66d7-5ae9-4c2b-8dac-d66a44771a16) |
 
 
 | Few-Shot | Epochs | LR   | Recall (Freeze) | Recall (No-Freeze) |
