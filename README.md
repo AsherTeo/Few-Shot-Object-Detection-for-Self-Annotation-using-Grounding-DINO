@@ -1,4 +1,4 @@
-![test_1275](https://github.com/user-attachments/assets/d769def6-ab71-4262-a2ac-215cfef9406f)![test_1275](https://github.com/user-attachments/assets/d769def6-ab71-4262-a2ac-215cfef9406f)## 1. Introduction
+## 1. Introduction
 
 In traditional computer vision workflows, dataset annotation is often the most time-consuming step. Manually drawing bounding boxes for thousands of images quickly becomes a bottleneck, especially for domain-specific objects where zero shot may not generalize well.
 
