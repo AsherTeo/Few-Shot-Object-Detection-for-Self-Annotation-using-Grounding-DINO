@@ -1,7 +1,13 @@
 ## Acknowledgement
-This project is based on the implementation from [longzw1997](https://github.com/longzw1997/Open-GroundingDino)
+This project is based on the implementation from [Grounding Dino](https://github.com/longzw1997/Open-GroundingDino)
 
 We modified the training pipeline and added few-shot experiments and analysis.
+
+## Installation
+This project is built on top of the original implementation.  
+For environment setup and dependencies, please follow the installation instructions from the original repository:
+
+👉 [Grounding Dino](https://github.com/longzw1997/Open-GroundingDino)
 
 ## 1. Introduction
 
