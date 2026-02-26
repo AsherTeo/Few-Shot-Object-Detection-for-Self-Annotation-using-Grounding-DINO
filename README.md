@@ -1,3 +1,9 @@
+## Acknowledgement
+This project is based on the implementation from:
+- https://github.com/author/repo_name
+
+We modified the training pipeline and added few-shot experiments and analysis.
+
 ## 1. Introduction
 
 In traditional computer vision workflows, dataset annotation is often the most time-consuming step. Manually drawing bounding boxes for thousands of images quickly becomes a bottleneck, especially for domain-specific objects where zero shot may not generalize well.
