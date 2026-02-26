@@ -1,0 +1,18 @@
+{
+  "train": [
+    {
+      "root": "/GroundingDINO-Med-main/crowd_data/sample10/merged/train",
+      "anno": "/GroundingDINO-Med-main/input_params/train.jsonl",
+      "label_map": "/GroundingDINO-Med-main/input_params/label.json",
+      "dataset_mode": "odvg"
+    }
+  ],
+  "val": [
+    {
+      "root": "/GroundingDINO-Med-main/crowd_data/sample/merged/valid",
+      "anno": "/GroundingDINO-Med-main/crowd_data/sample/merged/valid/_annotations.coco.json",
+      "label_map": null,
+      "dataset_mode": "coco"
+    }
+  ]
+}
